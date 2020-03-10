@@ -5,7 +5,22 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaE_MissileControl_V4", "HaE_MissileControl_V4\HaE_MissileControl_V4.csproj", "{06F90686-FC8E-4655-925F-091002F9CD32}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HaE Autopilot Module", "..\..\..\MDK_Projects\Shared Projects\HaE Autopilot Module\HaE Autopilot Module.shproj", "{4EFA3DC1-C6DF-4853-962D-E2998290B240}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CD961FB-D145-49D6-BCD2-5E0BA7B00896}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HaE MathUtils", "..\..\..\MDK_Projects\Shared Projects\VectorUtils\HaE MathUtils.shproj", "{2D034700-8C67-41B0-B3C8-5510D21E52C3}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\MDK_Projects\Shared Projects\HaE Autopilot Module\HaE Autopilot Module.projitems*{06f90686-fc8e-4655-925f-091002f9cd32}*SharedItemsImports = 4
+		..\..\..\MDK_Projects\Shared Projects\VectorUtils\VectorUtils.projitems*{06f90686-fc8e-4655-925f-091002f9cd32}*SharedItemsImports = 4
+		..\..\..\MDK_Projects\Shared Projects\VectorUtils\VectorUtils.projitems*{2d034700-8c67-41b0-b3c8-5510d21e52c3}*SharedItemsImports = 13
+		..\..\..\MDK_Projects\Shared Projects\HaE Autopilot Module\HaE Autopilot Module.projitems*{4efa3dc1-c6df-4853-962d-e2998290b240}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 	EndGlobalSection

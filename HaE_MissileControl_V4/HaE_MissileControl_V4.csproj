@@ -45,11 +45,19 @@
     <AdditionalFiles Include="MDK\MDK.paths.props">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AdditionalFiles>
+    <Compile Include="Missile\Missile.cs" />
+    <Compile Include="Missile\MissileError.cs" />
+    <Compile Include="Missile\MissileStatus.cs" />
     <Compile Include="Program.cs" />
     <AdditionalFiles Include="Instructions.readme" />
     <AdditionalFiles Include="thumb.png" />
     <AdditionalFiles Include="MDK\whitelist.cache" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+  </ItemGroup>
+  <Import Project="..\..\..\..\MDK_Projects\Shared Projects\HaE Autopilot Module\HaE Autopilot Module.projitems" Label="Shared" />
+  <Import Project="..\..\..\..\MDK_Projects\Shared Projects\VectorUtils\VectorUtils.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild">
     <Copy SourceFiles="MDK\MDK.options.props" DestinationFolder="$(TargetDir)\MDK" />
