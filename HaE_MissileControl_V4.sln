@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaE_MissileControl_V4", "HaE_MissileControl_V4\HaE_MissileControl_V4.csproj", "{06F90686-FC8E-4655-925F-091002F9CD32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F90686-FC8E-4655-925F-091002F9CD32}.Debug|x64.ActiveCfg = Debug|x64
+		{06F90686-FC8E-4655-925F-091002F9CD32}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D6A5D76-5FBF-4DDF-B9EC-3106C1B0BBF0}
+	EndGlobalSection
+EndGlobal
